@@ -1,15 +1,24 @@
+
 header {
-    margin: 20px auto;
+    margin: 20px;
 }
 
-h3 {
-    background-color: aquamarine;
+h4 {
+    background-color: rgb(30, 187, 77);
+    border;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 3px;
 }
 
 ul li {
     text-align: right;
     list-style-type: none;
     display: inline;
-    margin-right: 15px;
-
+    margin-right: 10px;
+    font-size: x-small;
 }
+
+
