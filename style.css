@@ -5,11 +5,11 @@ header {
 
 h4 {
     background-color: rgb(30, 187, 77);
-    border;
+    border: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     color: whitesmoke;
-    font-size: 22px;
+    font-size: 24px;
     padding: 3px;
 }
 
@@ -21,4 +21,22 @@ ul li {
     font-size: x-small;
 }
 
+h2 {
+    color: rgb(30, 187, 77);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+article {
+    background-color: rgb(204, 179, 179);
+    margin: 30px;
+}
+
+
+
+div2 {
+    background-color: rgb(204, 179, 179);
+}
 
