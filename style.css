@@ -34,7 +34,10 @@ article {
     margin: 30px;
 }
 
-
+img {
+    height: 325px;
+    width: 250px;
+}
 
 div2 {
     background-color: rgb(204, 179, 179);
