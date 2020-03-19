@@ -1,16 +1,18 @@
 
 header {
     margin: 20px;
+    margin-bottom: none;
 }
 
 h4 {
     background-color: rgb(30, 187, 77);
-    border: none;
+    border-radius: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     color: whitesmoke;
     font-size: 24px;
     padding: 3px;
+    text-indent: 14px;
 }
 
 ul li {
@@ -23,6 +25,8 @@ ul li {
 
 h2 {
     color: rgb(30, 187, 77);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 20px;
@@ -41,5 +45,14 @@ img {
 
 div2 {
     background-color: rgb(204, 179, 179);
+}
+
+footer {
+    background-color: rgb(53, 50, 49);
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: medium;
+    color: white;
+    text-align: center;
 }
 
