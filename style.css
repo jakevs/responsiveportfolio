@@ -27,25 +27,24 @@ h2 {
     color: rgb(30, 187, 77);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 0px;
 }
 
 article {
-    background-color: rgb(204, 179, 179);
+    background-color: rgb(195, 200, 206);
     margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
 }
 
 img {
-    height: 325px;
-    width: 250px;
+    height: 300px;
+    width: 225px;
 }
 
-div2 {
-    background-color: rgb(204, 179, 179);
-}
 
 footer {
     background-color: rgb(53, 50, 49);
