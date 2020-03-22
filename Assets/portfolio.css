@@ -1,3 +1,7 @@
+body {
+    background-color: lavender;
+}
+
 header {
     margin: 20px;
     margin-bottom: none;
@@ -20,6 +24,16 @@ ul li {
     display: inline;
     margin-right: 10px;
     font-size: x-small;
+}
+
+h2 {
+    color: rgb(30, 187, 77);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 0px;
 }
 
 footer {
