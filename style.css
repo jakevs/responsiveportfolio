@@ -2,10 +2,11 @@ body {
     background-color: lavender;
 }
 
-
 header {
-    margin: 20px;
-    margin-bottom: none;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-left: none;
+    margin-right: none;
 }
 
 h4 {
@@ -15,7 +16,7 @@ h4 {
     font-weight: 500;
     color: whitesmoke;
     font-size: 24px;
-    padding: 3px;
+    padding: 15px;
     text-indent: 14px;
 }
 
@@ -27,18 +28,20 @@ ul li {
     font-size: x-small;
 }
 
+section {
+    padding: 15px;
+}
+
 h2 {
     color: rgb(30, 187, 77);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    margin-top: 0px;
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-bottom: 0px;
 }
 
 article {
-    background-color: rgb(195, 200, 206);
+    background-color: whitesmoke;
+    border-style: groove;
+    border-color: rgb(162, 153, 170, .5);
     margin: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;

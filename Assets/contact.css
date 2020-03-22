@@ -37,8 +37,15 @@ h2 {
 }
 
 form {
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
     border-style: outset;
+    background-color: rgb(162, 153, 170, .5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 footer {

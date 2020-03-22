@@ -36,6 +36,21 @@ h2 {
     margin-bottom: 0px;
 }
 
+img {
+    width: 150px;
+    height: 200px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.card-body {
+    background-color: rgb(30, 187, 77);
+}
+
 footer {
     background-color: rgb(53, 50, 49);
     font-weight: 600;
