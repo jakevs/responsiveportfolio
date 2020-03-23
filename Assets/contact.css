@@ -35,10 +35,10 @@ h2 {
 }
 
 form {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: none;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 10px;
     border-style: outset;
     background-color: rgb(162, 153, 170, .5);
