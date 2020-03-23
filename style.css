@@ -11,38 +11,35 @@ header {
 
 h4 {
     background-color: rgb(30, 187, 77);
-    border-radius: 25px;
+    border-radius: 50%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     color: whitesmoke;
-    font-size: 24px;
+    font-size: x-large;
     padding: 15px;
-    text-indent: 14px;
 }
 
 ul li {
     text-align: right;
     list-style-type: none;
     display: inline;
-    margin-right: 10px;
+    padding: 10px;
     font-size: x-small;
-}
-
-section {
-    padding: 15px;
 }
 
 h2 {
     color: rgb(30, 187, 77);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    font-weight: 500;
+    padding: 15px;
 }
 
 article {
     background-color: whitesmoke;
     border-style: groove;
-    border-color: rgb(162, 153, 170, .5);
+    border-color: rgb(162, 153, 170, .4);
     margin: 30px;
+    margin-top: 0px;
     padding: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
