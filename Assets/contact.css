@@ -22,7 +22,7 @@ ul li {
     text-align: right;
     list-style-type: none;
     display: inline;
-    margin-right: 10px;
+    padding: 10px;
     font-size: x-small;
 }
 
@@ -46,6 +46,7 @@ form {
     background-color: rgb(162, 153, 170, .5);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    color: rgb(44, 40, 40, .8);
 }
 
 footer {
@@ -53,7 +54,7 @@ footer {
     font-weight: 600;
     font-variant: small-caps;
     font-size: medium;
-    color: white;
+    color: whitesmoke;
     text-align: center;
 }
 

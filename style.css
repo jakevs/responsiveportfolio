@@ -43,13 +43,16 @@ article {
     border-style: groove;
     border-color: rgb(162, 153, 170, .5);
     margin: 30px;
+    padding: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+    color: rgb(44, 40, 40, .8)
 }
 
 img {
     height: 300px;
     width: 225px;
+    padding: 15px;
 }
 
 
@@ -58,7 +61,7 @@ footer {
     font-weight: 600;
     font-variant: small-caps;
     font-size: medium;
-    color: white;
+    color: whitesmoke;
     text-align: center;
 }
 
