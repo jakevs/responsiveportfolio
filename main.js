@@ -4,12 +4,12 @@ const message = document.querySelector("#message");
 const submit = document.querySelector("#sub-button");
 const msgDiv = document.querySelector("#msg");
 
-function displayMessage(type, message) {
+function errorMessage(type, message) {
   msgDiv.textContent = message;
   msgDiv.setAttribute("class", type);
 }
 
-submit.addEventListener("click", function (e) {
+submit.addEventListener("click", (e) => {
   e.preventDefault();
 
   var user = {
@@ -20,13 +20,13 @@ submit.addEventListener("click", function (e) {
   console.log(user);
 
   if (user.nameOne === "") {
-    displayMessage("error", "Name cannot be blank");
+    errorMessage("error", "Name cannot be blank");
   } else if (user.emailOne === "") {
-    displayMessage("error", "Email cannot be blank");
+    errorMessage("error", "Email cannot be blank");
   } else if (user.messageOne === "") {
-    displayMessage("error", "Message cannot be blank");
+    errorMessage("error", "Message cannot be blank");
   } else {
-    displayMessage("success", "Registered successfully");
+    errorMessage("success", "Submitted successfully");
   }
 
   // set new submission
