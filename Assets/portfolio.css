@@ -1,60 +1,61 @@
 body {
-    background-color: lavender;
+  background-color: lavender;
 }
 
 header {
-    padding: 20px;
-    background-color: whitesmoke;
-    margin-left: none;
-    margin-right: none;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin-left: none;
+  margin-right: none;
 }
 
 h4 {
-    background-color: rgb(30, 187, 77);
-    border-radius: 50%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    color: whitesmoke;
-    font-size: x-large;
-    padding: 15px;
+  background-color: rgb(30, 187, 77);
+  border-radius: 50%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: x-large;
+  padding: 15px;
 }
 
 ul li {
-    text-align: right;
-    list-style-type: none;
-    display: inline;
-    padding: 10px;
-    font-size: x-small;
+  text-align: right;
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  font-size: x-small;
 }
 
 h2 {
-    color: rgb(30, 187, 77);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    padding: 15px;
+  color: rgb(30, 187, 77);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  padding: 15px;
 }
 
 img {
-    width: 150px;
-    height: 200px;
+  width: 150px;
+  height: 200px;
 }
 
 .card-title {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
 }
 
-.card-body {
-    background-color: rgb(30, 187, 77);
+a {
+  color: rgb(99, 117, 216);
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 footer {
-    background-color: rgb(53, 50, 49);
-    font-weight: 600;
-    font-variant: small-caps;
-    font-size: medium;
-    color: whitesmoke;
-    text-align: center;
+  background-color: rgb(53, 50, 49);
+  font-weight: 600;
+  font-variant: small-caps;
+  font-size: medium;
+  color: whitesmoke;
+  text-align: center;
 }
-

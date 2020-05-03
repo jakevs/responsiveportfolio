@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./contact.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
 
-</head>
+  <body>
+    <nav class="navbar navbar-light" style="background-color: whitesmoke;">
+      <h4>
+        James Van Slyke III
+      </h4>
 
-<body>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="../index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Assets/portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../Assets/contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-  <nav class="navbar navbar-light" style="background-color: whitesmoke;">
-    <h4>
-      James Van Slyke III
-    </h4>
+    <main class="container">
+      <element class="row">
+        <h2>
+          Contact
+        </h2>
+      </element>
 
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link active" href="../index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../Assets/portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../Assets/contact.html">Contact</a>
-            </li>
-        </ul>
-
-</nav>
-
-<main class="container">
-
-  <element class="row">
-  <h2>
-    Contact
-  </h2>
-  </element>
-
-        <form>
-          <section class="form-group">
-            <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Jane Doe">
-            </div>
-          </section>
-
-          <section class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </section>
-       
-          <section class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </section>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-
-        <hr>
-        <footer class="row">
-          <div class="col-12">
-            JVSIII
+      <form>
+        <section class="form-group">
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name-input"
+              placeholder="Jane Doe"
+            />
           </div>
-        </footer>
-    
-</main>
-      
-</body>
+        </section>
 
+        <section class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email-input"
+            placeholder="name@example.com"
+          />
+        </section>
+
+        <section class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </section>
+        <div id="msg"></div>
+        <button type="submit" class="btn btn-primary" id="sub-button">
+          Submit
+        </button>
+      </form>
+
+      <hr />
+      <footer class="row">
+        <div class="col-12">
+          JVSIII
+        </div>
+      </footer>
+    </main>
+    <script src="../main.js"></script>
+  </body>
 </html>
