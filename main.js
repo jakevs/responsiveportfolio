@@ -12,7 +12,7 @@ function errorMessage(type, message) {
 submit.addEventListener("click", (e) => {
   e.preventDefault();
 
-  var user = {
+  let user = {
     nameOne: name.value.trim(),
     emailOne: email.value.trim(),
     messageOne: message.value.trim(),
@@ -28,7 +28,5 @@ submit.addEventListener("click", (e) => {
   } else {
     errorMessage("success", "Submitted successfully");
   }
-
-  // set new submission
   localStorage.setItem("user", JSON.stringify(user));
 });
