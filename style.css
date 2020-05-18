@@ -1,62 +1,64 @@
 body {
-    background-color: lavender;
+  background-color: lavender;
 }
 
 header {
-    padding: 20px;
-    background-color: whitesmoke;
-    margin-left: none;
-    margin-right: none;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin-left: none;
+  margin-right: none;
 }
 
 h4 {
-    background-color: rgb(30, 187, 77);
-    border-radius: 50%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    color: whitesmoke;
-    font-size: x-large;
-    padding: 15px;
+  background-color: rgb(30, 187, 77);
+  border-radius: 50%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: x-large;
+  padding: 15px;
 }
 
 ul li {
-    text-align: right;
-    list-style-type: none;
-    display: inline;
-    padding: 10px;
-    font-size: x-small;
+  text-align: right;
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  font-size: x-small;
 }
 
 h2 {
-    color: rgb(30, 187, 77);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    padding: 15px;
+  color: rgb(30, 187, 77);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  padding: 15px;
 }
 
 article {
-    background-color: whitesmoke;
-    border-style: groove;
-    border-color: rgb(162, 153, 170, .4);
-    padding: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    color: rgb(44, 40, 40, .8)
+  background-color: whitesmoke;
+  border-style: groove;
+  border-color: rgb(162, 153, 170, 0.4);
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: rgb(44, 40, 40, 0.8);
 }
 
 img {
-    height: 300px;
-    width: 225px;
-    padding: 15px;
+  height: 300px;
+  width: 225px;
+  padding: 15px;
 }
 
+a {
+  text-align: center;
+}
 
 footer {
-    background-color: rgb(53, 50, 49);
-    font-weight: 600;
-    font-variant: small-caps;
-    font-size: medium;
-    color: whitesmoke;
-    text-align: center;
+  background-color: rgb(53, 50, 49);
+  font-weight: 600;
+  font-variant: small-caps;
+  font-size: medium;
+  color: whitesmoke;
+  text-align: center;
 }
-
