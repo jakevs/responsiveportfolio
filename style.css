@@ -44,9 +44,15 @@ article {
   color: rgb(44, 40, 40, 0.8);
 }
 
-img {
+#picture-size {
   height: 300px;
   width: 225px;
+  padding: 15px;
+}
+
+#picture-linked {
+  height: 80px;
+  width: 80px;
   padding: 15px;
 }
 
