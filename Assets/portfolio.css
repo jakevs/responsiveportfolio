@@ -44,6 +44,15 @@ h2 {
   color: whitesmoke;
 }
 
+.goGo {
+  float:none;
+  display:inline-block;
+  zoom:1;
+  /* width: 0px; */
+  /* margin: auto; */
+  text-align: center;
+  padding: 10px;
+}
 /* a {
   color: rgb(99, 117, 216);
   font-weight: 525;
