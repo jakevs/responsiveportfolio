@@ -47,12 +47,27 @@ form {
     color: rgb(44, 40, 40, .8);
 }
 
+#picture-linked, #picture-git {
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+  }
+  
+  #picture-html, #picture-css, #picture-java, #picture-node, #picture-mongo, #picture-react {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+  }
+
 footer {
-    background-color: rgb(53, 50, 49);
+    background-color: rgb(99, 94, 92);
+    box-shadow: 0 50vh 0 50vh rgb(99, 94, 92);
     font-weight: 600;
     font-variant: small-caps;
-    font-size: medium;
+    font-size: smaller;
     color: whitesmoke;
     text-align: center;
+    margin-left: none;
+    margin-right: none;
 }
 
