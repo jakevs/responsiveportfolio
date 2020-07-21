@@ -24,7 +24,7 @@ ul li {
     list-style-type: none;
     display: inline;
     padding: 10px;
-    font-size: x-small;
+    font-variant: small-caps;
 }
 
 h2 {
