@@ -1,5 +1,6 @@
 body {
-  background-color: lavender;
+  background-image: url("https://blog.sandiego.org/wp-content/uploads/2020/03/HowToHelpBlog1600x800.jpg");
+  background-color: #cccccc;
 }
 
 header {
@@ -28,20 +29,21 @@ ul li {
 }
 
 h2 {
-  color: rgb(30, 187, 77);
+  color: rgb(250, 241, 234);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   padding: 15px;
 }
 
 article {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke;
   border-style: groove;
-  border-color: rgb(162, 153, 170, 0.4);
+  border-color: rgb(162, 153, 170, 0.4); */
   padding: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
-  color: rgb(44, 40, 40, 0.8);
+  font-weight: 700;
+  color: rgb(250, 241, 234);
 }
 
 /* Slideshow container */
