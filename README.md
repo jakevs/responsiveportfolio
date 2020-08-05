@@ -4,4 +4,6 @@
 <h3>Working Details</h3>
 <p>I made a webpage with three different pages that can be linked to on any of the pages using the Navbar. I made the webpages responsive, so they will be asthetically pleasing on all size screens for the user. This means making the Navbar, layout and images all responsive elements. I used Bootstrap so that I would not have to write out media queries, like when writing pure CSS. I had to play with some of the Bootstrap elements to make the page work, and clean up semantics, but I am happy with what I came up with. I ended up redoing my original Navbar that I had made from scratch, with an example from Bootstrap and edited that. It also took me a while to get the text to wrap around the image in the index file, but satisfying when I finally got it to work. I enjoy working with the grid because it makes sense to me. For the portfolio page, I created links for different projects that will send user to those github pages. I added a main.js file that stores information written in the contact.html file to local storage as an object.</p>
 <br>
-<img src="https://avatars.githubusercontent.com/jakevs" style="width: 10px; height: 10px; border-radius:75%;">
+   <div class="CircleBadge CircleBadge--medium bg-gray-dark">
+   <img src="https://avatars.githubusercontent.com/jakevs" height="90" width="90">   
+   </div>
