@@ -1,18 +1,24 @@
 body {
-  background-image: url("../Images/bike\ sunset\ cliffs.jpeg");
-  background-color: #cccccc;
-  background-size: cover;
   font-size: 1.2em;
 }
 
-/* header {
+#background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../Images/bike\ sunset\ cliffs.jpeg");
+  background-color: #cccccc;
+  background-size: cover;
+  z-index: -1;
+}
+
+header {
   padding: 20px;
   background-color: whitesmoke;
   margin-left: none;
   margin-right: none;
-} */
-
-/* h4 {
+}
+*/ h4 {
   background-color: rgb(30, 187, 77);
   border-radius: 50%;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -20,20 +26,25 @@ body {
   color: whitesmoke;
   font-size: x-large;
   padding: 15px;
-} */
+}
 
 .app {
   width: 90%;
   margin: auto;
 }
 
-/* ul li {
+img {
+  width: calc(100vw - 250px);
+  max-width: 800px;
+}
+
+ul li {
   text-align: right;
   list-style-type: none;
   display: inline;
   padding: 10px;
   font-variant: small-caps;
-} */
+}
 
 /* img {
   max-width: 100%;
@@ -57,7 +68,7 @@ body {
   grid-area: 4 / 1 / 5 / 4;
 }
 .dBox {
-  grid-area: 5 / 1 / 12 / 7;
+  grid-area: 6 / 1 / 13 / 7;
 }
 .eBox {
   grid-area: 7 / 6 / 9 / 10;
@@ -75,7 +86,7 @@ body {
   grid-area: 14 / 1 / 15 / 4;
 }
 .jBox {
-  grid-area: 15 / 1 / 22 / 7;
+  grid-area: 17 / 1 / 24 / 7;
 }
 .kBox {
   grid-area: 17 / 6 / 19 / 10;
@@ -117,7 +128,7 @@ body {
   font-size: 120%;
   margin-bottom: 10vh;
 }
-/* h2 {
+h2 {
   color: rgb(250, 241, 234);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
@@ -132,7 +143,7 @@ body {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
-} */
+}
 
 /* .goGo {
   float: none;
